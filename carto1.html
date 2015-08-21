@@ -12,15 +12,31 @@
      }
 
      #map {
-      background:steelblue;
+      background:gray;
       position:absolute;
       height:100%;
       width:100%;
      }
+
+      #info {
+      position: absolute;
+      top: 10px;
+      left: 50px;
+      background: steelblue;
+      border-radius: 10px;
+      display: block;
+      padding: 10px;
+      color: white;
+      font-family:sans-serif;
+     }
     </style>
   </head>
   <body>  
-    <div id = 'map'>
+    <div id='map'>
+    </div>
+    <div id='info'>
+      <p class = 'message'>Welcome to my Map!</p>
+      <button id = 'reset'>Reset</button>
     </div>
     <script>
       //Javascript goes here
